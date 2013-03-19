@@ -1,0 +1,23 @@
+{
+  "name": "vfs-mongodb",
+  "version": "0.1.0",
+  "description": "A VFS adapter for MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github_personal:Schoonology/node-vfs-mongodb.git"
+  },
+  "author": "Michael Schoonmaker <michael.r.schoonmaker@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.5.0",
+    "chai": "~1.2.0"
+  },
+  "dependencies": {
+    "mongodb": "~1.1.7",
+    "stepdown": "~0.2.5"
+  }
+}
